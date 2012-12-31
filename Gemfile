@@ -10,10 +10,13 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+  gem 'libv8'
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
-
+  gem 'execjs'
+  gem 'therubyracer'
   gem 'uglifier', '1.2.3'
+  gem 'rb-readline'
 end
 
 gem 'jquery-rails', '2.0.2'
